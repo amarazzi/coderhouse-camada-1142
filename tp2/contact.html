@@ -1,170 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Primer TP</title>
-</head>
-<body>
-	<header>
-		<nav>
-			<img src="http://placehold.it/15x15/"/>
+	<head>
+		<title>Contact</title>
+	</head>
+	
+	<body>
+		<header>
+			<img src="http://placehold.it/50x20">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#home">Contact</a></li>
+			</ul>
+		</header>
+		<section>
+			<h1>Contact</h1>
+			<p>Curabitur ultricies elementum mauris eu dapibus dui aliquet et mauris euismod neque a molestie sem fringilla non</p>
+		</section>
+		<section>
+			<h3>Get in Touch</h3>
+			<p>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</p>
+			<form id="formulario" action="contacto.php" method="POST">
+				<input name="nombre" placeholder="Name" type="text" required>
+				<br/>
+				<input name="apellido" placeholder="Surname" type="text" required>
+				<br/>
+				<input name="motivo" placeholder="Subject" type="text" required>
+				<br/>
+				<input name="mensaje" placeholder="Message" type="text" required>
+				<br/>
+				<input name="entrega" type="submit">
+			</form>
+		</section>
+		<section>
+			<p>Hosting use <span>500,000</span> happy customers. Want to see services?</p>
+		</section>
+		<footer>
+			<p>© 2015 Hostro. All right reserved.</p>
 			<ul>
 				<li>Home</li>
 				<li>Contact</li>
 			</ul>
-		</nav>
-	</header>
-
-	<section>
-		<div><img src="http://placehold.it/800x400"/></div>
-	</section>
-
-	<form action="buscar.php">
-		<input type="search" name="buscar" placeholder="Enter your domain name and hit enter">
-		<input type="submit">
-	</form>
-
-	<section>
-		<article>
-			<img src="http://placehold.it/20x20"/>
-			<p>Some text</p>
-			<p>A paragraph of text with an<br /> A second <ins>row</ins> of <del>text</del> with a</p>
-		</article>
-
-		<article>
-			<img src="http://placehold.it/20x20"/>
-			<p>Some text</p>
-			<p>A paragraph of text with an<br /> A second <ins>row</ins> of <del>text</del> with a</p>
-		</article>
-
-		<article>
-			<img src="http://placehold.it/20x20"/>
-			<p>Some text</p>
-			<p>A paragraph of text with an<br /> A second <ins>row</ins> of <del>text</del> with a</p>
-		</article>
-
-		<article>
-			<img src="http://placehold.it/20x20"/>
-			<p>Some text</p>
-			<p>A paragraph of text with an<br /> A second <ins>row</ins> of <del>text</del> with a</p>
-		</article>
-
-		<div>
-			<h3>A Subtitle</h3>
-			<p>Some text Some text Some text</p>
-		</div>
-
-		<div>
-			<article>
-				<img src="http://placehold.it/20x20"/>
-				<p>Some text</p>
-				<p>asd as das d zxc zx xczxcasd</p>
-			</article>
-			<article>
-				<img src="http://placehold.it/20x20"/>
-				<p>Some text</p>
-				<p>asd as das d zxc zx xczxcasd</p>
-			</article>
-			<article>
-				<img src="http://placehold.it/20x20"/>
-				<p>Some text</p>
-				<p>asd as das d zxc zx xczxcasd</p>
-			</article>
-		</div>
-
-		<div><img src="http://placehold.it/200x600"/></div>
-
-		<div>
-			<article>
-				<img src="http://placehold.it/20x20"/>
-				<p>Some text</p>
-				<p>asd as das d zxc zx xczxcasd</p>
-			</article>
-			<article>
-				<img src="http://placehold.it/20x20"/>
-				<p>Some text</p>
-				<p>asd as das d zxc zx xczxcasd</p>
-			</article>
-			<article>
-				<img src="http://placehold.it/20x20"/>
-				<p>Some text</p>
-				<p>asd as das d zxc zx xczxcasd</p>
-			</article>
-		</div>
-	</section>
-
-	<section>
-		<div>
-			<h3>A subtitle</h3>
-			<p>Some text Some text Some text</p>
-		</div>
-	</section>
-
-	<section>
-		<article>
-			<p>Some text</p>
-			<p>$95</p>
-			<hr/>
-			<ul>
-				<li>Some text 1</li>
-				<li>Some text 1</li>
-				<li>Some text 1</li>
-				<li>Some text 1</li>
-			</ul>
-			<a href="#button">Button</a>
-		</article>
-		<article>
-			<p>Some text</p>
-			<p>$95</p>
-			<hr/>
-			<ul>
-				<li>Some text 1</li>
-				<li>Some text 1</li>
-				<li>Some text 1</li>
-				<li>Some text 1</li>
-			</ul>
-			<a href="#button">Button</a>
-		</article>
-		<article>
-			<p>Some text</p>
-			<p>$95</p>
-			<hr/>
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-			<a href="#button">Button</a>
-		</article>
-		<article>
-			<p>Some text</p>
-			<p>$95</p>
-			<hr/>
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-			<a href="#button">Button</a>
-		</article>
-	</section>
-
-	<section>
-		<p>Hosting use <span>500,000</span> happy customers. Want to see service?</p>
-	</section>
-
-	<footer>
-		<p>Some text</p>
-		<div>
-			<nav>
-				<ul>
-					<li><a href="#Home">Home</a></li>
-					<li><a href="#Contact">Contact</a></li>
-				<ul>
-			</nav>
-		</div>
-	</footer>
-</body>
+		</footer>
+	</body>
 </html>
