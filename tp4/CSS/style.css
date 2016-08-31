@@ -1,206 +1,173 @@
 nav {
-	padding: 15px;
-	margin: 0 10%;
+    padding: 15px;
+    margin: 0 20%;
 }
 
 .menu {
-	float:right;
+    float:right;
 }
 
 .menu li {
-	display:inline-block;
-	margin:5px 15px;
+    display:inline-block;
+    margin:5px 15px;
 }
 
 .menu li a {
-	font-family:'Raleway';
-	font-size:10px;
-	text-decoration: none;
-	color:#000;
-	text-transform: uppercase;
-	font-weight: bold;
+    font-family:'Raleway';
+    font-size:10px;
+    text-decoration: none;
+    color:#000;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 h1 {
-	font-family: 'Raleway';
-	font-weight: bold;
-	font-size: 25px;
-	margin-left:15%;
+    font-family: 'Raleway';
+    font-size: 35px;
 }
 
-h2 {
-	font-family: 'Raleway';
-	font-weight: bold;
-	font-size: 10px;
+section p {
+    font-family: 'Raleway';
+    font-size: 10px;
+    width: 250px;
 }
 
-section h5 {
-	font-family: 'Raleway';
-	font-weight: 400;
-	font-size: 13px;
-	margin-left:15%;
-}
-
-#busqueda {
-	font-family: 'Raleway'
-	font-weight: 400;
-	width:25%;
-	margin:0 auto;
-}
-
-.facilidades article {
-	font-family: 'Open Sans';
-	font-weight: 700;
-	font-size: 20px;
-	width: 10%;
-	text-transform: uppercase;
-	display: inline-block;
-	padding:10px;
-	position: relative;
-	left: 25%;
-}
-
-div h2 {
-	font-family: 'Raleway'
-	font-weight: 700;
-	font-size: 20px;
-	text-align: center;
-}
-
-div p {
-	font-family: 'Raleway'
-	font-weight: 400;
-	font-size: 14px;
-	text-align: center;
-}
-
-article h4 {
-	font-family: 'Raleway'
-	font-weight: bold;
-	font-size: 16px;
-}
-
-article p {
-	font-family: 'Raleway'
-	font-weight: 400;
-	font-size: 12px;
-}
-
-.imagencentro {
-	display:inline-block;
-    position:absolute;
-    top: 580px;
-    left: 40%;
-}
-
-.primerdiv {
-	display: inline-block;
-	position: relative;
-    left: 63%;
-}
-
-.segundodiv {
-	display: inline-block;
-	position: relative;
+.regularupdates {
+    position: absolute;
     left: 20%;
 }
 
-.small td:nth-child(2) {
-	color:cyan;
+.centrarbuscador {    
+    width: 25%;
+    position: absolute;
+    top: 250px;
+    margin: 0 35%;
 }
 
-.normal td:nth-child(2) {
-	color:yellow;
+.facilidades article {
+    font-family: 'Open Sans';
+    font-size: 5px;
+    width: 10%;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: 200px; 
+    padding: 30px;
 }
 
-.big td:nth-child(2) {
-	color:orange;
+.facilidades p {
+    width: 150px;
 }
 
-.best td:nth-child(2) {
-	color:red;
+.facilidades h2 {
+    text-transform: uppercase;
+}
+
+.hostro {
+    position: relative;
+    left: 35%;
+    top: 180px;
+}
+
+.imagencentro {
+	position: absolute;
+    top: 572px;
+    left: 35%;
+    display: inline-block;
+
+}
+
+.primerdiv {
+    position: relative;
+    left: 150px;
+    top: 200px;
+}
+
+.segundodiv {
+    position: relative;
+    left: 785px;
+    top: -99px;
 }
 
 .servicios {
-	text-align: center;
+    text-align: center;
+}
+
+h4 {
+    font-size:10px;
+}
+
+.planes {
+ margin: 0 10%;
 }
 
 .planes article {
-	display: inline-block;
+    display: inline-block;
     position: relative;
-    margin-left:10%;
 }
 
 .planes h2 {
-	font-family: 'Raleway'
-	font-weight: 700;
-	font-size: 20px;
-	
+    font-family: 'Raleway'
+    font-weight: 700;
+    font-size: 20px;
+    
 }
 
 .planes p {
-	font-family: 'Raleway'
-	font-weight: 400;
-	font-size: 10px;
-	text-align: center;	
+    font-family: 'Raleway'
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center; 
+}
+
+.small td:nth-child(2) {
+    color:cyan;
+}
+
+.normal td:nth-child(2) {
+    color:yellow;
+}
+
+.big td:nth-child(2) {
+    color:orange;
+}
+
+.best td:nth-child(2) {
+    color:red;
 }
 
 .happy {
-    font-size: 25px;
+    font-size: 40px;
+    width: 80%;
     text-align: center;
-    padding: 25px;
-    background-color: #003366;
-    color:white;
 }
 
 span {
-	color:#4d79ff;
-}
-
-section article p {	
-	font-family: 'Raleway'
-	font-weight: 400;
-	font-size: 7px;
-	width: 10px;
-}
-
-h6 {
-	font-family: 'Raleway';
-	font-weight: 400;
-	font-size: 15px;
-}
-
-.velocidad {
-	font-size: 20px;
-}
-
-.destacado	{
-	font-family: 'Open Sans';
-	color:#01aff4;
-	font-weight: 700;
+    color:#4d79ff;
 }
 
 footer {
-	background:#333;
-	padding: 15px;
-	overflow: auto;
+    background:#333;
+    padding: 15px;
+    width: 80%;
+    overflow: auto;
 }
 
 
 footer p {
-	float: left;
+    float: left;
 }
 
 footer li {
-	float:right;
+    float:right;
 }
 
 footer a {
-	text-decoration: none;
-	color: white;
-	padding: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
 }
 
 footer ul {
-	    list-style-type: none;
-	}
+        list-style-type: none;
+}
