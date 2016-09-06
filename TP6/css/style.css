@@ -1,0 +1,259 @@
+	body {
+		font-family: 'Open Sans', sans-serif;
+		margin: 10px;
+	}
+
+	a {
+		color: black;
+		text-decoration: none;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	.contenedor {
+		max-width: 1200px;
+		margin: auto;
+	}
+
+	.menu {
+		margin:20px;
+		padding-top: 20px;
+	}
+
+	nav ul {
+		float: right;
+	}
+
+	nav ul li {
+		display: inline-block;
+		padding: 10px;	
+	}
+
+	.header-background {
+		background-image:url("../images/indexbanner-bg3.jpg");
+		background-size: cover;
+		height: 516px;
+	}
+
+	.main-title {
+		position: relative;
+		top:40%;
+	}
+
+	h1 {
+		font-size: 45px;
+		color: #fff;
+	}
+
+	.main-title p {
+		font-size: 15px;
+		color: #fff;
+		margin-top: 30px;
+	}
+
+	.busqueda {
+		margin-left: 40%;
+	}
+
+	.servicios {
+		margin-top: 50px;	
+	}
+
+	.servicios article {
+		display: inline-block;
+		padding: 10px;
+	}
+
+	.servicios article p {
+		font-size:12px;
+		width: 250px;
+	}
+
+	section article	h2 {
+		font-size:15px;
+		font-weight: bold;
+	}
+
+	section	h2 {
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	.phone {
+		text-align: center;
+		margin-top: 60px;
+	}
+
+	.phone h4 {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	.phone h5 {
+		display: inline-block;
+		margin: 0px 20px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	.phone article {
+		display: inline-block;
+		width: 25%;
+	}
+
+	.phone-features img {
+		position: relative;
+		top: 20px;
+	}
+
+	.phone .phone-img {
+		width: 40%;
+	}
+
+	.phone .phone-features {
+		position: relative;
+		top: -150px;
+	}
+
+	.phone .phone-features p {
+		margin-top: 25px;
+		margin-bottom: 40px;
+	}
+
+	.phone .right {
+		text-align: right;
+	}
+
+	.phone .left {
+		text-align: left;
+	}
+
+	.phone .right p {
+		padding-right: 70px;
+	}
+
+	.phone .left p {
+		padding-left: 70px;
+	}
+
+	.promos {
+		text-align: center;
+	}
+
+	.promos h2 {
+		font-size: 25px;
+		margin-bottom: 15px;
+	}
+
+	.promos h4 {
+		font-size: 17px;
+		margin-bottom: 50px;
+	}
+
+	.paquetes {
+		display: inline-block;
+		width: 24%;
+
+	}
+
+	.paquetes h5 {
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.paquetes h2 {
+		margin:20px 0;
+		font-size: 35px;
+	}
+
+	.paquetes h6 { 
+		font-size: 13px;
+	}
+
+	.paquetes td {
+		width: 150px;
+	}
+
+	.celeste {
+		color:cyan;
+	}
+
+	.amarillo {
+		color:yellow;
+	}
+
+	.naranja {
+		color:orange;
+	}
+
+	.rojo {
+		color:red;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	.customers {
+		background-color:#142e3f;
+		padding: 70px;
+	}
+
+	.customers h2 {
+		text-align: center;
+		color: #fff;
+	}
+
+	.customers span {
+		font-family: 'Raleway';
+		font-size: 40px;
+		color:#01aff4;
+	}
+
+	.final-pagina h6 {
+		float: left;
+		color: #fff;
+	}
+
+	.final-pagina a {
+		color: #fff;
+	}
+
+	.final-pagina {
+		background-color:#091722;
+		padding: 70px;
+	}
+
+	.final-pagina ul li {
+		float: right;
+	}
+
+	.paquetes input[type=submit] {
+		width: 50%;
+		background-color: #01aff4;
+		color: white;
+		font-weight: bold;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+	.busqueda input[type=submit] {
+		width: 250px;
+		background-color: #01aff4;
+		color: white;
+		font-weight: bold;
+		padding: 16px 20px;
+		margin: 7px 0;
+		border: none;
+		cursor: pointer;
+	}
+
+	input[type=text] {
+		height: 40px;
+	}
+
